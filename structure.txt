@@ -1,0 +1,33 @@
+fastapi-template/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   └── api_v1.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── api_key.py
+│   │   └── log.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── api_key.py
+│   │   └── log.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── database.py
+│   │   └── security.py
+│   ├── middleware/
+│   │   ├── __init__.py
+│   │   └── logging_middleware.py
+│   └── utils/
+│       ├── __init__.py
+│       └── api_key_generator.py
+├── tests/
+│   ├── __init__.py
+│   └── test_endpoints.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── alembic.ini
